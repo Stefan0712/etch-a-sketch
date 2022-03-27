@@ -1,4 +1,5 @@
 var num = 16;
+addDivs(num);
 function reset(){
     //delete the entire main-container
     var oldDivs = document.querySelector(".main-container");
