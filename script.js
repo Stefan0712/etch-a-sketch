@@ -1,5 +1,5 @@
 var num = 16;
-addDivs(num);
+addDivs(num);       
 function reset(){
     //delete the entire main-container
     var oldDivs = document.querySelector(".main-container");
@@ -37,6 +37,9 @@ function addDivs(num){
             const content = document.createElement('div');
             content.classList.add('subDiv');
             content.style.cssText = `width: ${maxWidth}px; height: ${maxWidth}px`;
+            content.addEventListener("mouseover", function(){
+                content.style.cssText=`background: blue; width: ${maxWidth}px; height: ${maxWidth}px`;
+            })
             mainContainer.appendChild(content);
             
 

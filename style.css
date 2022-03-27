@@ -9,7 +9,6 @@ body {
     border: 1px solid gray;
     margin: 0px;
     padding: 0;
-    transition-duration: 2s;
 
 }
 .main-container{
@@ -21,10 +20,7 @@ body {
     height: 960px;
     padding: 5px;
 }
-.subDiv:hover{
-    background-color:blue;
-    transition-duration: 0.1ms;
-}
+
 .menu{
     height: 200px;
     border: 1px solid white;
