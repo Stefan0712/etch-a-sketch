@@ -1,13 +1,23 @@
 body {
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
 }
 .subDiv{
     width: 25px;
     height: 25px;
-    border: 2px black solid;
+    border: 1px solid gray;
 
 }
 .main-container{
     display: flex;
     flex-wrap: wrap;
+    align-self: center;
+}
+.subDiv:hover{
+    background-color:blue;
+}
+.menu{
+    height: 200px;
+    border: 1px solid white;
 }
